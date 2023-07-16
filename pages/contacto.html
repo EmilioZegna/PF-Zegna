@@ -8,7 +8,7 @@
         integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <title>Document</title>
 </head>
-<body class="index">
+<body class="contacto">
     <header>
         <nav class="navbar navbar-expand-lg navbar  border-bottom border-bottom-dark" data-bs-theme="dark">
             <div class="container-fluid">
@@ -43,8 +43,33 @@
         </nav>
     </header>
 
-    <main>
-
+    <main class="col d-flex flex-column h-100 align-items-center pt-4">
+        <div class="container-fluid d-flex col justify-content-around ">
+            <form>
+                <div class="form-group mt-5">
+                    <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label text-white">Email</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label text-white">Celular</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1">
+                    </div>
+                    <label for="opciones" class="text-white">Selecciona una opción:</label>
+                    <select class="form-control" id="opciones">
+                        <option value="">--Contactanos via--</option>
+                        <option value="opcion1">facebook</option>
+                        <option value="opcion2">whatsapp</option>
+                        <option value="opcion3">instagram</option>
+                    </select>
+                    <div class="form-group mt-3">
+                        <label for="comentario" class="text-white">Agrega un comentario:</label>
+                        <textarea class="form-control" id="comentario" rows="3"></textarea>
+                    </div>
+                </div>
+                <button type="submit" class="btn btn-primary mt-3">Enviar</button>
+            </form>
+        </div>
     </main>
 
     <footer>
