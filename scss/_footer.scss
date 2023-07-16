@@ -1,0 +1,60 @@
+footer {
+    @include background;
+    grid-area: footer;
+    margin-top: 550px;
+    border: 3px solid black;
+    border-radius: 20px;
+
+    .Contactanos {
+        display: flex;
+        justify-content: center;
+
+        .Social {
+            text-align: center;
+            font-weight: bold;
+            font-size: 1.5rem;
+            margin-top: 5px;
+            color: #050505;
+            background: linear-gradient(121deg, rgba(26, 24, 23, 1) 0%, rgba(255, 170, 10, 1) 100%);
+            border: 2px solid #040404;
+            border-radius: 5px;
+            padding: 4px;
+
+            @include mobilemini{
+                font-size: 0.8rem;
+            }
+
+        }
+    }
+
+    .logos {
+        display: flex;
+        justify-content: center;
+
+        .logosEnlace {
+            width: 30px;
+            height: 25px;
+            margin-top: 5px;
+        }
+    }
+
+    .Copyright {
+        color: rgb(0, 0, 0);
+        display: flex;
+        justify-content: right;
+        font-weight: bold;
+        margin-top: 20px;
+        margin-right: 8px;
+
+        @include mobilemini{
+            font-size: 0.8rem;
+            justify-content: center;
+        }
+
+        @include mobile{
+            justify-content: center;
+        }
+    }
+
+
+}

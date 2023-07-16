@@ -1,0 +1,128 @@
+main {
+    height: 50vh;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 0.5fr);
+    grid-template-areas:
+        "divuno pUno"
+        "pDos divdos";
+
+    @include mobilemini {
+        @include grid-responsive;
+    }
+
+    @include mobile {
+        @include grid-responsive
+    }
+
+    .divUno {
+        grid-area: divuno;
+
+        @include mobilemini {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        @include mobile {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-right: 21px;
+
+        }
+
+        img {
+            width: 70vh;
+            margin: 40px 0 0 20px;
+            border: 2px solid black;
+            border-radius: 1rem;
+
+            @include mobilemini {
+                width: 50vh;
+            }
+        }
+    }
+
+    div.tuno {
+        display: flex;
+        align-items: center;
+        text-align: center;
+
+        @include mobilemini {
+            margin: 20px 0 20px 0;
+        }
+
+        @include mobile {
+            margin: 10px 0 10px 0;
+        }
+
+        h2 {
+            color: white;
+            padding-right: 30px;
+            padding-left: 30px;
+
+            @include mobilemini {
+                font-size: 0.8rem;
+            }
+
+            @include mobile {
+                font-size: 1rem;
+            }
+        }
+    }
+
+    .divDos {
+        grid-area: divdos;
+        display: flex;
+        justify-content: flex-end;
+        margin-right: 20px;
+
+        @include mobilemini {
+            margin-right: 50px;
+        }
+
+        @include mobile {
+            justify-content: center;
+            margin-right: 0;
+        }
+
+        img {
+            width: 70vh;
+            border: 2px solid black;
+            border-radius: 1rem;
+
+            @include mobilemini {
+                width: 50vh;
+            }
+        }
+    }
+
+    div.tdos {
+        display: flex;
+        align-items: center;
+        text-align: center;
+
+        @include mobilemini {
+            margin: 20px 0 20px 0;
+        }
+
+        @include mobile {
+            margin: 10px 0 10px 0;
+        }
+
+        h2 {
+            color: white;
+            padding-left: 30px;
+            padding-right: 30px;
+
+            @include mobilemini {
+                font-size: 0.8rem;
+            }
+
+            @include mobile {
+                font-size: 1rem;
+            }
+        }
+    }
+}
