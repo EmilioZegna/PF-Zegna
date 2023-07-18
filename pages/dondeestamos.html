@@ -8,7 +8,7 @@
         integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <title>Document</title>
 </head>
-<body class="contacto">
+<body class="index">
     <header>
         <nav class="navbar navbar-expand-lg navbar  border-bottom border-bottom-dark" data-bs-theme="dark">
             <div class="container-fluid">
@@ -26,7 +26,7 @@
                             <a class="text-light" href="../index.html">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="text-light" href="../pages/dondeestamos.html">Donde estamos</a>
+                            <a class="text-light" href="#">Donde estamos</a>
                         </li>
                         <li class="nav-item">
                             <a class="text-light" href="../pages/comprar.html">Nuestros productos</a>
@@ -35,7 +35,7 @@
                             <a class="text-light" href="../pages/formapartedenuestroequipo.html">Conocenos</a>
                         </li>
                         <li class="nav-item">
-                            <a class="text-light" href="#">Contacto</a>
+                            <a class="text-light" href="../pages/contacto.html">Contacto</a>
                         </li>
                     </ul>
                 </div>
@@ -43,32 +43,31 @@
         </nav>
     </header>
 
-    <main class="col d-flex flex-column h-100 align-items-center pt-4">
-        <div class="container-fluid d-flex col justify-content-around ">
-            <form>
-                <div class="form-group mt-5">
-                    <div class="mb-3">
-                        <label for="exampleInputEmail1" class="form-label text-white">Email</label>
-                        <input type="email" class="form-control" id="exampleInputEmail1">
-                    </div>
-                    <div class="mb-3">
-                        <label for="exampleInputEmail1" class="form-label text-white">Celular</label>
-                        <input type="email" class="form-control" id="exampleInputEmail1">
-                    </div>
-                    <label for="opciones" class="text-white">Selecciona una opción:</label>
-                    <select class="form-control" id="opciones">
-                        <option value="">--Contactanos via--</option>
-                        <option value="opcion1">facebook</option>
-                        <option value="opcion2">whatsapp</option>
-                        <option value="opcion3">instagram</option>
-                    </select>
-                    <div class="form-group mt-3">
-                        <label for="comentario" class="text-white">Agrega un comentario:</label>
-                        <textarea class="form-control" id="comentario" rows="3"></textarea>
-                    </div>
+    <main class="cconocenos">
+        <div class="titulos">
+            <h1>UBICACION</h1>
+        </div>
+        <div class="contenido">
+            <div class="mapa">
+                <div class="imagen">
+                    <h2>TIENDA PRINCIPAL</h2>
+                    <img src="../assets/imagenubicacion.png" alt="Tienda principal" >
                 </div>
-                <button type="submit" class="btn btn-primary mt-3">Enviar</button>
-            </form>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3348.1680708363992!2d-60.64156262457814!3d-32.94657177359331!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b7ab19c67acb55%3A0x66e746189e8fbf09!2sC%C3%B3rdoba%201151%2C%20S2000AWO%20Rosario%2C%20Santa%20Fe!5e0!3m2!1ses!2sar!4v1689707369703!5m2!1ses!2sar"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="lista">
+                <h3>TIENDAS SECUNDARIAS</h3>
+                <ul>
+                    <li>📌Córdoba 1643, Rosario, Santa Fe, Argentina</li>
+                    <li>📌San Martin 5225, Rosario, Santa Fe, Argentina</li>
+                    <li>📌Junin 501, Rosario, Santa Fe, Argentina </li>
+                    <li>📌Pueyrredón 730, Rosario, Santa Fe, Argentina </li>
+                    <li>📌Shopping Portal, Rosario, Santa Fe, Argentina</li>
+                </ul>
+            </div>
         </div>
     </main>
 
@@ -89,6 +88,6 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
         crossorigin="anonymous"></script>
-    
+
 </body>
 </html>

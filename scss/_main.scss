@@ -191,3 +191,99 @@ main.mainequipo {
         margin-left: -200%;
     }
 }
+
+main.cconocenos {
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+    .titulos {
+        background: rgba(0, 0, 0, 0.452);
+        border-radius: 16px;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(4.3px);
+        -webkit-backdrop-filter: blur(4.3px);
+        border: 1px solid rgb(255, 255, 255);
+        padding: 5px 15px 5px 15px;
+        flex-wrap: wrap;
+        text-align: center;
+        margin-bottom: 20px;
+        color: white;
+
+    }
+
+    .contenido {
+        display: flex;
+        flex-wrap: wrap;
+
+        .imagen {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin-right: 120px;
+            img {
+                border-radius: $border;
+            }
+            h2{
+                text-align: center;
+            }
+        }
+
+
+        .mapa {
+            display: flex;
+            justify-content: left;
+            align-items: flex-start;
+            flex: 1;
+
+
+            h2 {
+                background: rgba(255, 255, 255, 0.452);
+                border-radius: 16px;
+                box-shadow: 0 4px 30px rgba(255, 255, 255, 0.1);
+                backdrop-filter: blur(4.3px);
+                -webkit-backdrop-filter: blur(4.3px);
+                border: 1px solid rgba(0, 0, 0, 1);
+                padding: 5px 15px 5px 15px;
+                padding-right: -20px;
+                color: white;
+            }
+
+            iframe {
+                align-items: flex-start;
+                border-radius: $border;
+            }
+        }
+
+
+        .lista {
+            margin-left: 70px;
+            flex: 1;
+            text-align: right;
+
+            h3 {
+                background: rgba(255, 255, 255, 0.452);
+                border-radius: 16px;
+                box-shadow: 0 4px 30px rgba(255, 255, 255, 0.1);
+                backdrop-filter: blur(4.3px);
+                -webkit-backdrop-filter: blur(4.3px);
+                border: 1px solid rgba(0, 0, 0, 1);
+                padding: 5px 15px 5px 15px;
+                color: white;
+                text-align: right;
+            }
+
+            ul {
+                list-style-type: none;
+
+                li {
+                    color: white;
+                }
+            }
+        }
+    }
+}
