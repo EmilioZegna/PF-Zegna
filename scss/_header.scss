@@ -26,7 +26,12 @@ header {
                     font-weight: 500;
                     text-decoration: none;
                     padding: 2rem;
-                }
+                    
+                    &:hover {
+                        font-weight: bold;
+                        font-size: 1rem;
+                    }
+                }                 
             }
         }
     }
