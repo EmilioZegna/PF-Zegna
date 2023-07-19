@@ -128,7 +128,7 @@ main {
 }
 
 main.mainequipo {
-    @include main;
+    @extend %main;
 
     div.video {
         flex: 1;
@@ -198,6 +198,14 @@ main.cconocenos {
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+    @include mobilemini {
+        display: grid;
+        grid-template-rows: repeat(2, 1fr);
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+        "titulos"
+        "contenido";
+    }
 
     .titulos {
         background: rgba(0, 0, 0, 0.452);
@@ -211,12 +219,27 @@ main.cconocenos {
         text-align: center;
         margin-bottom: 20px;
         color: $color;
+        @include mobilemini {
+            grid-area: titulos;
+            font-size: 0.8rem;
+        }
 
     }
 
     .contenido {
         display: flex;
         flex-wrap: wrap;
+        @include mobilemini {
+            grid-area: contenido;
+            display: grid;
+            grid-template-rows: repeat(4, 1fr);
+            grid-template-columns: 1fr;
+            grid-template-areas: 
+            "imagen"
+            "mapa"
+            "iframe"
+            "lista";
+        }
 
         .imagen {
             display: flex;
@@ -224,6 +247,9 @@ main.cconocenos {
             justify-content: center;
             align-items: center;
             margin-right: 120px;
+            @include mobilemini {
+                grid-area: imagen;
+            }
             img {
                 border-radius: $border;
             }
@@ -238,6 +264,9 @@ main.cconocenos {
             justify-content: left;
             align-items: flex-start;
             flex: 1;
+            @include mobilemini {
+                grid-area: mapa;
+            }
 
 
             h2 {
@@ -255,6 +284,9 @@ main.cconocenos {
             iframe {
                 align-items: flex-start;
                 border-radius: $border;
+                @include mobilemini {
+                    grid-area: iframe;
+                }
             }
         }
 
@@ -263,6 +295,9 @@ main.cconocenos {
             margin-left: 70px;
             flex: 1;
             text-align: right;
+            @include mobilemini {
+                grid-area: lista;
+            }
 
             h3 {
                 background: rgba(255, 255, 255, 0.452);
@@ -288,7 +323,7 @@ main.cconocenos {
 }
 
 main.mainequipo {
-    @include main;
+    @extend %main;
     
     div {
         h2 {
@@ -299,7 +334,7 @@ main.mainequipo {
     }
 
     div.divdoscompras {
-        margin-top: 200px;
+        margin-top: 100px;
        
         h2.tmarcas {
             color: $color;
