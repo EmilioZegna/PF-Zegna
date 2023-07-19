@@ -320,7 +320,9 @@ main.mainequipo {
   display: flex;
   flex-direction: column;
 }
-main.mainequipo div h1 {
+main.mainequipo div h2 {
+  display: flex;
+  text-align: center;
   color: white;
 }
 main.mainequipo div.divdoscompras {

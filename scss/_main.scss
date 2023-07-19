@@ -291,7 +291,9 @@ main.mainequipo {
     @include main;
     
     div {
-        h1 {
+        h2 {
+            display: flex;
+            text-align: center;
             color: $color;
         }
     }
