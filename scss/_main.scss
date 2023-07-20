@@ -12,6 +12,7 @@ main {
     }
 
     @include mobile {
+        height: 140vh;
         @include grid-responsive
     }
 

@@ -67,6 +67,7 @@ main {
 }
 @media screen and (min-width: 480px) and (max-width: 1024px) {
   main {
+    height: 140vh;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(4, 0.5fr);
     grid-template-areas: "divuno" "pUno" "divdos" "pDos";
