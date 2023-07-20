@@ -7,3 +7,8 @@ body.contacto {
     height: 80vh;
     @extend %body;
 }
+
+body.marcas {
+    height: 100vh;
+    @extend %body;
+}

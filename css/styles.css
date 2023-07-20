@@ -6,7 +6,11 @@ body.contacto {
   height: 80vh;
 }
 
-body.index, body.contacto {
+body.marcas {
+  height: 100vh;
+}
+
+body.index, body.contacto, body.marcas {
   background-image: url(../assets/110520-poligono-negro-fila-forma_geometrica-geometria-2560x1600.jpg);
   background-repeat: no-repeat;
   background-size: auto;
@@ -446,6 +450,16 @@ main.cconocenos {
   color: white;
 }
 
+@media screen and (min-width: 320px) and (max-width: 479px) {
+  main.mainequipo {
+    height: 60vh;
+  }
+}
+@media screen and (min-width: 480px) and (max-width: 1024px) {
+  main.mainequipo {
+    height: 80vh;
+  }
+}
 main.mainequipo div {
   margin-top: 20px;
 }
@@ -454,8 +468,23 @@ main.mainequipo div h2 {
   text-align: center;
   color: white;
 }
+@media screen and (min-width: 320px) and (max-width: 479px) {
+  main.mainequipo div h2 {
+    font-size: 1rem;
+  }
+}
+@media screen and (min-width: 480px) and (max-width: 1024px) {
+  main.mainequipo div h2 {
+    font-size: 1.3rem;
+  }
+}
 main.mainequipo div.divdoscompras {
   margin-top: 100px;
+}
+@media screen and (min-width: 320px) and (max-width: 479px) {
+  main.mainequipo div.divdoscompras {
+    margin-top: 50px;
+  }
 }
 main.mainequipo div.divdoscompras h2.tmarcas {
   display: flex;
@@ -467,6 +496,16 @@ main.mainequipo div.divtrescompras {
   display: flex;
   margin-top: 90px;
   justify-content: center;
+}
+@media screen and (min-width: 320px) and (max-width: 479px) {
+  main.mainequipo div.divtrescompras {
+    margin-top: 30px;
+  }
+}
+@media screen and (min-width: 480px) and (max-width: 1024px) {
+  main.mainequipo div.divtrescompras {
+    margin-top: 20px;
+  }
 }
 
 footer {
@@ -526,7 +565,7 @@ footer .Copyright {
   }
 }
 
-body.index, body.contacto {
+body.index, body.contacto, body.marcas {
   background-image: url(../assets/110520-poligono-negro-fila-forma_geometrica-geometria-2560x1600.jpg);
   background-repeat: no-repeat;
   background-size: auto;
