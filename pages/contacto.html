@@ -52,14 +52,14 @@
                 <div class="form-group mt-5">
                     <div class="mb-3">
                         <label for="exampleInputEmail1" class="form-label text-white">Email</label>
-                        <input type="email" class="form-control" id="exampleInputEmail1">
+                        <input type="email" class="form-control" id="exampleInputEmail1" required>
                     </div>
                     <div class="mb-3">
                         <label for="exampleInputEmail1" class="form-label text-white">Celular</label>
-                        <input type="email" class="form-control" id="exampleInputEmail1">
+                        <input type="numbers" class="form-control" id="tel" required>
                     </div>
                     <label for="opciones" class="text-white">Selecciona una opción:</label>
-                    <select class="form-control" id="opciones">
+                    <select class="form-control" id="opciones" required>
                         <option value="">--Contactanos via--</option>
                         <option value="opcion1">facebook</option>
                         <option value="opcion2">whatsapp</option>
@@ -67,7 +67,7 @@
                     </select>
                     <div class="form-group mt-3">
                         <label for="comentario" class="text-white">Agrega un comentario:</label>
-                        <textarea class="form-control" id="comentario" rows="3"></textarea>
+                        <textarea class="form-control" id="comentario" rows="3" required></textarea>
                     </div>
                 </div>
                 <button type="submit" class="btn btn-primary mt-3">Enviar</button>
