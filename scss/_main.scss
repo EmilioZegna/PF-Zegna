@@ -46,7 +46,7 @@ main {
         }
     }
 
-    div.tuno {
+    div.tUno {
         display: flex;
         align-items: center;
         text-align: center;
@@ -100,7 +100,7 @@ main {
         }
     }
 
-    div.tdos {
+    div.tDos {
         display: flex;
         align-items: center;
         text-align: center;
@@ -129,7 +129,7 @@ main {
     }
 }
 
-main.mainequipo {
+main.mainEquipo {
     @extend %main;
 
     div.video {
@@ -193,7 +193,7 @@ main.mainequipo {
     }
 }
 
-main.cconocenos {
+main.cConocenos {
     height: 80vh;
     display: flex;
     flex-direction: column;
@@ -421,7 +421,7 @@ main.cconocenos {
 }
 
 
-main.mainequipo {
+main.mainEquipo {
     @extend %main;
 
     @include mobilemini {
@@ -451,14 +451,14 @@ main.mainequipo {
         }
     }
 
-    div.divdoscompras {
+    div.divDosCompras {
         margin-top: 100px;
 
         @include mobilemini {
             margin-top: 50px;
         }
 
-        h2.tmarcas {
+        h2.tMarcas {
             display: flex;
             color: $color;
             justify-content: center;
@@ -466,7 +466,7 @@ main.mainequipo {
         }
     }
 
-    div.divtrescompras {
+    div.divTresCompras {
         display: flex;
         margin-top: 90px;
         justify-content: center;

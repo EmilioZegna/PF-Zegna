@@ -16,7 +16,7 @@ body.index, body.contacto, body.marcas {
   background-size: auto;
 }
 
-main.mainequipo {
+main.mainEquipo {
   display: flex;
   flex-direction: column;
 }
@@ -102,33 +102,33 @@ main .divUno img {
     width: 50vh;
   }
 }
-main div.tuno {
+main div.tUno {
   display: flex;
   align-items: center;
   text-align: center;
 }
 @media screen and (min-width: 320px) and (max-width: 479px) {
-  main div.tuno {
+  main div.tUno {
     margin: 20px 0 20px 0;
   }
 }
 @media screen and (min-width: 480px) and (max-width: 1024px) {
-  main div.tuno {
+  main div.tUno {
     margin: 10px 0 10px 0;
   }
 }
-main div.tuno h2 {
+main div.tUno h2 {
   color: white;
   padding-right: 30px;
   padding-left: 30px;
 }
 @media screen and (min-width: 320px) and (max-width: 479px) {
-  main div.tuno h2 {
+  main div.tUno h2 {
     font-size: 0.8rem;
   }
 }
 @media screen and (min-width: 480px) and (max-width: 1024px) {
-  main div.tuno h2 {
+  main div.tUno h2 {
     font-size: 1rem;
   }
 }
@@ -159,58 +159,58 @@ main .divDos img {
     width: 50vh;
   }
 }
-main div.tdos {
+main div.tDos {
   display: flex;
   align-items: center;
   text-align: center;
 }
 @media screen and (min-width: 320px) and (max-width: 479px) {
-  main div.tdos {
+  main div.tDos {
     margin: 20px 0 20px 0;
   }
 }
 @media screen and (min-width: 480px) and (max-width: 1024px) {
-  main div.tdos {
+  main div.tDos {
     margin: 10px 0 10px 0;
   }
 }
-main div.tdos h2 {
+main div.tDos h2 {
   color: white;
   padding-left: 30px;
   padding-right: 30px;
 }
 @media screen and (min-width: 320px) and (max-width: 479px) {
-  main div.tdos h2 {
+  main div.tDos h2 {
     font-size: 0.8rem;
   }
 }
 @media screen and (min-width: 480px) and (max-width: 1024px) {
-  main div.tdos h2 {
+  main div.tDos h2 {
     font-size: 1rem;
   }
 }
 
-main.mainequipo div.video {
+main.mainEquipo div.video {
   flex: 1;
   display: flex;
   justify-content: center;
   margin: 10px 0 10px 0;
   position: relative;
 }
-main.mainequipo div.slider {
+main.mainEquipo div.slider {
   height: auto;
 }
-main.mainequipo div.slider ul {
+main.mainEquipo div.slider ul {
   padding: 0;
   display: flex;
   width: 200%;
   animation: slider 10s infinite alternate-reverse;
 }
-main.mainequipo div.slider ul li {
+main.mainEquipo div.slider ul li {
   width: 800%;
   list-style: none;
 }
-main.mainequipo div.slider ul img {
+main.mainEquipo div.slider ul img {
   width: 100%;
   height: auto;
   object-fit: contain;
@@ -239,7 +239,7 @@ main.mainequipo div.slider ul img {
     margin-left: -200%;
   }
 }
-main.cconocenos {
+main.cConocenos {
   height: 80vh;
   display: flex;
   flex-direction: column;
@@ -248,7 +248,7 @@ main.cconocenos {
   justify-content: center;
 }
 @media screen and (min-width: 320px) and (max-width: 479px) {
-  main.cconocenos {
+  main.cConocenos {
     display: grid;
     height: 110vh;
     grid-template-rows: repeat(2, 1fr);
@@ -257,7 +257,7 @@ main.cconocenos {
   }
 }
 @media screen and (min-width: 480px) and (max-width: 1024px) {
-  main.cconocenos {
+  main.cConocenos {
     display: grid;
     height: 110vh;
     grid-template-rows: repeat(2, 1fr);
@@ -452,63 +452,63 @@ main.cconocenos {
 }
 
 @media screen and (min-width: 320px) and (max-width: 479px) {
-  main.mainequipo {
+  main.mainEquipo {
     height: 60vh;
   }
 }
 @media screen and (min-width: 480px) and (max-width: 1024px) {
-  main.mainequipo {
+  main.mainEquipo {
     height: 80vh;
   }
 }
-main.mainequipo div {
+main.mainEquipo div {
   margin-top: 35px;
 }
-main.mainequipo div p {
+main.mainEquipo div p {
   display: flex;
   font-size: 2rem;
   text-align: center;
   color: white;
 }
 @media screen and (min-width: 320px) and (max-width: 479px) {
-  main.mainequipo div p {
+  main.mainEquipo div p {
     font-size: 1rem;
   }
 }
 @media screen and (min-width: 480px) and (max-width: 1024px) {
-  main.mainequipo div p {
+  main.mainEquipo div p {
     font-size: 1.3rem;
   }
 }
-main.mainequipo div.divdoscompras {
+main.mainEquipo div.divDosCompras {
   margin-top: 100px;
 }
 @media screen and (min-width: 320px) and (max-width: 479px) {
-  main.mainequipo div.divdoscompras {
+  main.mainEquipo div.divDosCompras {
     margin-top: 50px;
   }
 }
-main.mainequipo div.divdoscompras h2.tmarcas {
+main.mainEquipo div.divDosCompras h2.tMarcas {
   display: flex;
   color: white;
   justify-content: center;
   text-align: center;
 }
-main.mainequipo div.divtrescompras {
+main.mainEquipo div.divTresCompras {
   display: flex;
   margin-top: 90px;
   justify-content: center;
 }
-main.mainequipo div.divtrescompras img:hover {
+main.mainEquipo div.divTresCompras img:hover {
   transform: scale(1.1);
 }
 @media screen and (min-width: 320px) and (max-width: 479px) {
-  main.mainequipo div.divtrescompras {
+  main.mainEquipo div.divTresCompras {
     margin-top: 30px;
   }
 }
 @media screen and (min-width: 480px) and (max-width: 1024px) {
-  main.mainequipo div.divtrescompras {
+  main.mainEquipo div.divTresCompras {
     margin-top: 20px;
   }
 }
@@ -574,7 +574,7 @@ body.index, body.contacto, body.marcas {
   background-size: auto;
 }
 
-main.mainequipo {
+main.mainEquipo {
   display: flex;
   flex-direction: column;
 }
