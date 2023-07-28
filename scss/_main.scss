@@ -1,6 +1,7 @@
 main {
     height: 110vh;
     display: grid;
+    margin-bottom: 40px;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 0.5fr);
     grid-template-areas:
@@ -469,6 +470,12 @@ main.mainequipo {
         display: flex;
         margin-top: 90px;
         justify-content: center;
+
+        img {
+            &:hover {
+                transform: scale(1.1);
+            }
+        }
 
         @include mobilemini {
             margin-top: 30px;
