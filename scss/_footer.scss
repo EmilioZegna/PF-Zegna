@@ -4,8 +4,8 @@ footer {
     border: 3px solid black;
 
     .Contactanos {
-        display: flex;
-        justify-content: center;
+        display: $display;
+        justify-content: $justify-content;
 
         .Social {
             text-align: center;
@@ -25,8 +25,8 @@ footer {
     }
 
     .logos {
-        display: flex;
-        justify-content: center;
+        display: $display;
+        justify-content: $justify-content;
 
         .logosEnlace {
             width: 30px;
@@ -37,7 +37,7 @@ footer {
 
     .Copyright {
         color: rgb(0, 0, 0);
-        display: flex;
+        display: $display;
         justify-content: right;
         font-weight: bold;
         margin-top: 20px;
@@ -45,11 +45,11 @@ footer {
 
         @include mobilemini{
             font-size: 0.8rem;
-            justify-content: center;
+            justify-content: $justify-content
         }
 
         @include mobile{
-            justify-content: center;
+            justify-content: $justify-content;
         }
     }
 }

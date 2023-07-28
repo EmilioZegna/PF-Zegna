@@ -21,15 +21,15 @@ main {
         grid-area: divuno;
 
         @include mobilemini {
-            display: flex;
-            align-items: center;
-            justify-content: center;
+            display: $display;
+            align-items: $align-items;
+            justify-content: $justify-content;
         }
 
         @include mobile {
-            display: flex;
-            align-items: center;
-            justify-content: center;
+            display: $display;
+            align-items: $align-items;
+            justify-content: $justify-content;
             margin-right: 21px;
 
         }
@@ -47,9 +47,9 @@ main {
     }
 
     div.tUno {
-        display: flex;
-        align-items: center;
-        text-align: center;
+        display: $display;
+        align-items: $align-items;
+        text-align: $justify-content;
 
         @include mobilemini {
             margin: 20px 0 20px 0;
@@ -76,7 +76,7 @@ main {
 
     .divDos {
         grid-area: divdos;
-        display: flex;
+        display: $display;
         justify-content: flex-end;
         margin-right: 20px;
 
@@ -85,7 +85,7 @@ main {
         }
 
         @include mobile {
-            justify-content: center;
+            justify-content: $justify-content;
             margin-right: 0;
         }
 
@@ -101,9 +101,9 @@ main {
     }
 
     div.tDos {
-        display: flex;
-        align-items: center;
-        text-align: center;
+        display: $display;
+        align-items: $align-items;
+        text-align: $justify-content;
 
         @include mobilemini {
             margin: 20px 0 20px 0;
@@ -134,8 +134,8 @@ main.mainEquipo {
 
     div.video {
         flex: 1;
-        display: flex;
-        justify-content: center;
+        display: $display;
+        justify-content: $justify-content;
         margin: 10px 0 10px 0;
         position: relative;
     }
@@ -145,7 +145,7 @@ main.mainEquipo {
 
         ul {
             padding: 0;
-            display: flex;
+            display: $display;
             width: 200%;
             animation: slider 10s infinite alternate-reverse;
 
@@ -195,11 +195,11 @@ main.mainEquipo {
 
 main.cConocenos {
     height: 80vh;
-    display: flex;
+    display: $display;
     flex-direction: column;
     flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
+    align-items: $align-items;
+    justify-content: $justify-content;
 
     @include mobilemini {
         display: grid;
@@ -260,7 +260,7 @@ main.cConocenos {
 }
 
 .contenido {
-    display: flex;
+    display: $display;
     flex-wrap: wrap;
 
     @include mobilemini {
@@ -288,10 +288,10 @@ main.cConocenos {
     }
 
     .imagen {
-        display: flex;
+        display: $display;
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        justify-content: $justify-content;
+        align-items: $align-items;
         margin-right: 120px;
 
         @include mobilemini {
@@ -333,7 +333,7 @@ main.cConocenos {
 
 
     .mapa {
-        display: flex;
+        display: $display;
         justify-content: left;
         align-items: flex-start;
         flex: 1;
@@ -370,7 +370,7 @@ main.cConocenos {
             @include mobilemini {
                 width: 300px;
                 height: 200px;
-                align-items: center;
+                align-items: $align-items;
                 margin-left: 20px;
 
             }
@@ -378,7 +378,7 @@ main.cConocenos {
             @include mobile {
                 width: 400px;
                 height: 200px;
-                align-items: center;
+                align-items: $align-items;
                 margin-right: 100px;
             }
         }
@@ -436,7 +436,7 @@ main.mainEquipo {
         margin-top: 35px;
 
         p {
-            display: flex;
+            display: $display;
             font-size: 2rem;
             text-align: center;
             color: $color;
@@ -459,17 +459,17 @@ main.mainEquipo {
         }
 
         h2.tMarcas {
-            display: flex;
+            display: $display;
             color: $color;
-            justify-content: center;
+            justify-content: $justify-content;
             text-align: center;
         }
     }
 
     div.divTresCompras {
-        display: flex;
+        display: $display;
         margin-top: 90px;
-        justify-content: center;
+        justify-content: $justify-content;
 
         img {
             &:hover {
