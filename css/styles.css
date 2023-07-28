@@ -462,20 +462,21 @@ main.cconocenos {
   }
 }
 main.mainequipo div {
-  margin-top: 20px;
+  margin-top: 35px;
 }
-main.mainequipo div h2 {
+main.mainequipo div p {
   display: flex;
+  font-size: 2rem;
   text-align: center;
   color: white;
 }
 @media screen and (min-width: 320px) and (max-width: 479px) {
-  main.mainequipo div h2 {
+  main.mainequipo div p {
     font-size: 1rem;
   }
 }
 @media screen and (min-width: 480px) and (max-width: 1024px) {
-  main.mainequipo div h2 {
+  main.mainequipo div p {
     font-size: 1.3rem;
   }
 }
